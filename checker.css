@@ -1,0 +1,34 @@
+html body{
+    height:100%;
+    background-color: blue;
+    border: solid red 2px;
+    flex-basis: fit-content;
+    /* margin-right: 21vh; */
+    /* margin-left: 25vh; */
+}
+.container{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    flex-wrap: nowrap;
+    flex: 1;
+}
+.container2 {
+    display: flex;
+    justify-content: center;
+    flex-flow: row-reverse ;
+    position: relative;
+    flex-wrap: nowrap;
+    flex: 1;
+}
+.red {
+    height: 20vh;
+    min-width: 20vh;
+    background-color: red;
+}
+.black {
+    height: 20vh;
+    min-width: 20vh;
+    background-color: black;
+}
+
